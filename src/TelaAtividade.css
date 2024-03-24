@@ -1,0 +1,78 @@
+.bodyy {
+    background: linear-gradient(45deg, #ccb4e2, #b899f5);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 15%;
+    max-width: 150px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.Vector {
+    height: auto; /* Deixe a altura se ajustar automaticamente */
+    width: 20%; /* Use uma porcentagem para a largura do vector */
+    max-width: 100px; /* Defina um máximo de largura */
+    margin-left: 5px; /* Margem esquerda */
+}
+
+.tela-atividade {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px; /* Adiciona uma margem superior */
+}
+
+/* Estilo para os títulos (h2) */
+.tela-atividade h2 {
+    margin-bottom: 10px; /* Adiciona um espaçamento inferior */
+}
+
+.tela-atividade {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px; /* Adiciona uma margem superior */
+}
+
+.tela-atividade div {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+    margin-bottom: 10px; /* Adiciona um espaçamento inferior */
+}
+
+.tela-atividade label {
+    width: 150px; /* Define uma largura fixa para as labels */
+    margin-right: 10px; /* Adiciona um espaçamento direito entre o rótulo e o campo de entrada */
+    margin-bottom: 10px; /* Adiciona um espaçamento inferior */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.tela-atividade div > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Estilo para os botões */
+.tela-atividade button {
+    padding: 5px 10px; /* Adiciona preenchimento interno aos botões */
+    margin-right: 10px; /* Adiciona um espaçamento direito entre os botões */
+    cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+    border: none; /* Remove a borda */
+    background-color: #ad89c2; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto nos botões */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos botões */
+}
+
+/* Estilo para o hover nos botões */
+.tela-atividade button:hover {
+    background-color: #9051d8d0; /* Altera a cor de fundo ao passar o mouse */
+}
